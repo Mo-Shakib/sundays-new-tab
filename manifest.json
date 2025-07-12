@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Sundays PM New Tab",
+    "version": "1.0",
+    "description": "Replace new tab page with Sundays PM webapp",
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "permissions": [],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
