@@ -6,7 +6,13 @@
     "chrome_url_overrides": {
       "newtab": "newtab.html"
     },
-    "permissions": [],
+    "permissions": [
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://sundays-pm.vercel.app/*",
+      "https://accounts.google.com/*"
+    ],
     "icons": {
       "16": "icon.png",
       "48": "icon.png",
